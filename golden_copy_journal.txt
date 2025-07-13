@@ -1,0 +1,17 @@
+{
+  "version": "1.1.0",
+  "description": "The single source of truth for the multi-AI framework. This is the external brain, controlled by the Architect, Matthew.",
+  "entries": [
+    {
+      "entry_id": "20250713-001",
+      "timestamp_utc": "2025-07-13T21:00:00Z",
+      "type": "SYSTEM_GENESIS",
+      "summary": "This is the first entry, establishing the 'Stateless Orchestrator' protocol. The system now operates with an external 'Golden Copy' journal held by the Architect to prevent AI memory drift and session failures.",
+      "active_protocol": {
+        "name": "Stateless Orchestrator with Manual Hydration",
+        "orchestrator": "A fresh AI session (e.g., Gemini).",
+        "memory": "The 'Golden Copy' text file, provided by the Architect at the start of each session."
+      }
+    }
+  ]
+}
